@@ -32,7 +32,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'bootstrap', '~> 4.0.0.alpha5'
 
-gem 'foreign_exchange', path: '../foreign_exchange'
+gem 'foreign_exchange', path: '../foreign_exchange_gem'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'

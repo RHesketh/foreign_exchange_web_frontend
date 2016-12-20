@@ -6,7 +6,7 @@ Before you can begin using the site you must download the latest foreign exchang
 
 `rake rates:download`
 
-**Note**: This git repository assumes that the Foreign Exchange gem project has been downloaded and is in a directory relative to this project named "foreign_exchange". You should edit the Gemfile if this is not the case.
+**Note**: This git repository assumes that the Foreign Exchange gem project has been downloaded and is in a directory relative to this project named "foreign_exchange_gem". You should edit the Gemfile if this is not the case.
 
 ### Commands
 
