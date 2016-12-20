@@ -1,18 +1,12 @@
 # Foreign Exchange Web Frontend
 Foreign Exchange Web Frontend is a small Rails application designed to showcase the ForeignExchange gem.
 
-## Installation
-
-Documentation Bot requires Ruby version 2.3.3. The easiest way to install Ruby is using a Ruby environment manager such as [RVM](http://rvm.io) or [rbenv](https://github.com/rbenv/rbenv).
-
-Once Ruby has been installed the project can be configured into an initial working state using:
-
-`bundle`
-
 ## Usage
 Before you can begin using the site you must download the latest foreign exchange rates so they can be stored locally. To do this, type:
 
 `rake rates:download`
+
+**Note**: This git repository assumes that the Foreign Exchange gem project has been downloaded and is in a directory relative to this project named "foreign_exchange". You should edit the Gemfile if this is not the case.
 
 ### Commands
 
