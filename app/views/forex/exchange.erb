@@ -1,0 +1,12 @@
+  <div class="row">
+    <div class="col-sm-12">
+      <h2><%= "#{number_with_precision(@amount, :precision => 2, :delimiter => ',')} #{@from_currency} is #{number_with_precision(@conversion, :precision => 2, :delimiter => ',')} #{@to_currency}" %></h2>
+      <em><%= "#{@from_currency} to #{@to_currency} rate is #{@rate} as of #{@date}" %></em>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="convert_link">
+        <%= link_to "Convert another amount", root_path %>
+      </div>
+    </div>
+  </div>

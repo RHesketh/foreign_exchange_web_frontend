@@ -1,7 +1,7 @@
+require 'foreign_exchange'
+
 class HomeController < ApplicationController
   def index
-    respond_to do |format|
-      format.html { render :index }
-    end
+    @currencies = ForeignExchange::ExchangeRate.currencies
   end
 end

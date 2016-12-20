@@ -9,7 +9,20 @@
   </head>
 
   <body>
+
     <div class="container">
+      <div class=row>
+        <% if flash[:error] %>
+          <div class="alert alert-danger" role="alert">
+            <%= flash[:error]%>
+          </div>
+        <% end %>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="pageheading">FX-u-like</h1>
+        </div>
+      </div>
       <%= yield %>
     </div>
   </body>
